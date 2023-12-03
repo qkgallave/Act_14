@@ -1,11 +1,10 @@
-#192.168.56.101 ansible_python_interpreter=/usr/bin/python3
+192.168.56.101 ansible_python_interpreter=/usr/bin/python3
 #192.168.56.102 ansible_python_interpreter=/usr/bin/python3
-192.168.56.104 ansible_python_interpreter=/usr/bin/python3
+#192.168.56.105 ansible_python_interpreter=/usr/bin/python3
 
-[controller_node]
-192.168.56.104
+#[controller_node]
+#192.168.56.105
 #CentOS
 
-[compute]
+[Ubuntu]
 192.168.56.101
-#Ubuntu
